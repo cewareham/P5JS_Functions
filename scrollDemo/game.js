@@ -4,15 +4,17 @@
 class Game {
     constructor(canvas) {
         this.canvas = canvas;
+        this.background = new Background("../images/dungeonFloor.png");
         this.centerCanvas();
     }
   
     update() {
-        
+        this.background.update();
     }
   
     render() {
-        background('blue');
+        //background('blue');
+        this.background.render();
     }
 
     centerCanvas() {
