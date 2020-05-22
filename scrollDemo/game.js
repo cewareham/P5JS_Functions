@@ -4,7 +4,10 @@
 class Game {
     constructor(canvas) {
         this.canvas = canvas;
-        this.background = new Background("../images/dungeonFloor.png");
+        this.background = new Background(["../images/dungeonFloor1.png",
+                "../images/dungeonFloor2.png",
+                "../images/dungeonFloor3.png",
+                "../images/dungeonFloor4.png"]);
         this.centerCanvas();
     }
   
