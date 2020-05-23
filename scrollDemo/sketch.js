@@ -1,10 +1,6 @@
 "use strict";
 
-let game, CC = {};
-
-function preload() {
-
-}
+let game;
 
 function setup() {
     let canvas = createCanvas(600, 600);
